@@ -1,0 +1,5 @@
+def invert(word):
+  inv = []
+  for l in word:
+    inv.insert(0, l)
+  return ''.join(inv)
